@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Latihan Form</title></head>
+    <form name="frmLatihan" method="get" action="#" >
+        <table align="center" border="1" cellpadding="10" width="40%">
+            <thead>
+                <tr bgcolor="khaki">
+                    <th colspan="2">Form Register Produk</th>
+                </tr> 
+            </thead>
+            <tfoot>
+                <tr bgcolor="khaki">
+                    <th colspan="2">
+                        <input type="submit" name="proses" value="kirim" />
+                        <input type="reset" name="unproses" value="Batal" />
+                    </th>
+                </tr> 
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td width="25%">Nama Produk</td>
+                    <td>
+                        <input type="text" name="nama" value="" placeholder="Nama Produk" size="50" maxlength="40"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Pendidikan</label></td>
+                    <td>
+                        <select>
+                            <option value="">--Kategori Produk--</option>
+                            <option value="SMA">Maknan</option>
+                            <option value="D3">Minuman</option>
+                            <option value="S1">Sabun</option>
+                            <option value="S2">Shampo</option>
+                            <option value="S3">Pasta Gigi</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Harga</label></td>
+                    <td>
+                        <input type="number" name="Harga" value="" placeholder="Masukan Harga" size="50" maxlength="40"/>  
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Stok</label></td>
+                    <td>
+                        <input type="number" name="Stok" value="" placeholder="Masukan Stok" size="50" maxlength="40"/>  
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Photo</label></td>
+                    <td>
+                        <input type="file" name="Harga" value="" placeholder="upload Photo" size="50" maxlength="40"/>  
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</html>
